@@ -1,0 +1,61 @@
+﻿search_detailscs.html     @model IEnumerable<Project_Railways.Models.SCHEDULE>
+
+@{
+    ViewBag.Title = "Search Details";
+}
+
+<h2>Search Details</h2>
+
+@if (ViewBag.NoResultsFound)
+{
+    <p>No results found.</p>
+}
+else if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().start_location)</th>
+                <th>@Html.DisplayNameFor(model => model.First().destination_location)</th>
+                <th>@Html.DisplayNameFor(model => model.First().price)</th>
+                <th>@Html.DisplayNameFor(model => model.First().start_date_time)</th>
+                <th>@Html.DisplayNameFor(model => model.First().destination_date_time)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Train.train_name)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Train.train_id)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Train.seat_capacity)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Train.general_quota)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Train.ladies_quota)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.start_location)</td>
+                    <td>@Html.DisplayFor(modelItem => item.destination_location)</td>
+                    <td>@Html.DisplayFor(modelItem => item.price)</td>
+                    <td>@Html.DisplayFor(modelItem => item.start_date_time)</td>
+                    <td>@Html.DisplayFor(modelItem => item.destination_date_time)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Train.train_name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Train.train_id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Train.seat_capacity)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Train.general_quota)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Train.ladies_quota)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        <p>No data found.</p>
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Back to List", "Train_details")
+</p>
+
+has context menu

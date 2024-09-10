@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Project_Railways.Models.SCHEDULE>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Train", "Index","Trains")
+</p>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.start_location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.destination_location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.start_date_time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.destination_date_time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Train.train_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Train.train_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Train.seat_capacity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Train.general_quota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Train.ladies_quota)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.start_location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.destination_location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.start_date_time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.destination_date_time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Train.train_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Train.train_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Train.seat_capacity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Train.general_quota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Train.ladies_quota)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Schedule_id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Schedule_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Schedule_id })
+        </td>
+    </tr>
+}
+
+</table>

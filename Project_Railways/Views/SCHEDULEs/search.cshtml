@@ -1,0 +1,33 @@
+﻿@model Project_Railways.Models.SCHEDULE
+
+@{
+    ViewBag.Title = "search";
+}
+
+
+
+<div style="text-align: left;">
+
+    @using (Html.BeginForm("search_details", "SCHEDULEs", FormMethod.Get))
+    {
+        <div class="offset-md-3 col-md-6">
+            <h2>Search</h2>
+            <div>
+                <label>start_date_time:</label>
+                @Html.TextBoxFor(model => model.start_date_time, "{0:yyyy-MM-dd}", new { @class = "form-control", placeholder = "Enter start date", type = "date" })
+            </div>
+            <div>
+                <label>start_location:</label>
+                @Html.TextBoxFor(model => model.start_location, new { @class = "form-control", placeholder = "Enter source location" })
+            </div>
+            <div>
+                <label>destination_location:</label>
+                @Html.TextBoxFor(model => model.destination_location, new { @class = "form-control", placeholder = "Enter destination location" })
+            </div>
+            <div>
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+    }
+
+</div>

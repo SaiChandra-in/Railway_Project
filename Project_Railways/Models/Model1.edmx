@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="RailwayInfoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="SCHEDULE">
+          <Key>
+            <PropertyRef Name="Schedule_id" />
+          </Key>
+          <Property Name="start_location" Type="varchar" MaxLength="20" />
+          <Property Name="destination_location" Type="varchar" MaxLength="20" />
+          <Property Name="price" Type="decimal" Precision="9" Scale="2" />
+          <Property Name="start_date_time" Type="datetime" />
+          <Property Name="destination_date_time" Type="datetime" />
+          <Property Name="train_id" Type="int" />
+          <Property Name="Schedule_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Train">
+          <Key>
+            <PropertyRef Name="train_id" />
+          </Key>
+          <Property Name="train_id" Type="int" Nullable="false" />
+          <Property Name="train_name" Type="varchar" MaxLength="30" />
+          <Property Name="seat_capacity" Type="int" />
+          <Property Name="general_quota" Type="int" />
+          <Property Name="ladies_quota" Type="int" />
+        </EntityType>
+        <Association Name="FK__SCHEDULE__train___48CFD27E">
+          <End Role="Train" Type="Self.Train" Multiplicity="0..1" />
+          <End Role="SCHEDULE" Type="Self.SCHEDULE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Train">
+              <PropertyRef Name="train_id" />
+            </Principal>
+            <Dependent Role="SCHEDULE">
+              <PropertyRef Name="train_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RailwayInfoModelStoreContainer">
+          <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SCHEDULE" EntityType="Self.SCHEDULE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Train" EntityType="Self.Train" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__SCHEDULE__train___48CFD27E" Association="Self.FK__SCHEDULE__train___48CFD27E">
+            <End Role="Train" EntitySet="Train" />
+            <End Role="SCHEDULE" EntitySet="SCHEDULE" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RailwayInfoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SCHEDULE">
+          <Key>
+            <PropertyRef Name="Schedule_id" />
+          </Key>
+          <Property Name="start_location" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="destination_location" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="price" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="start_date_time" Type="DateTime" Precision="3" />
+          <Property Name="destination_date_time" Type="DateTime" Precision="3" />
+          <Property Name="train_id" Type="Int32" />
+          <Property Name="Schedule_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Train" Relationship="Self.FK__SCHEDULE__train___48CFD27E" FromRole="SCHEDULE" ToRole="Train" />
+        </EntityType>
+        <EntityType Name="Train">
+          <Key>
+            <PropertyRef Name="train_id" />
+          </Key>
+          <Property Name="train_id" Type="Int32" Nullable="false" />
+          <Property Name="train_name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="seat_capacity" Type="Int32" />
+          <Property Name="general_quota" Type="Int32" />
+          <Property Name="ladies_quota" Type="Int32" />
+          <NavigationProperty Name="SCHEDULEs" Relationship="Self.FK__SCHEDULE__train___48CFD27E" FromRole="Train" ToRole="SCHEDULE" />
+        </EntityType>
+        <Association Name="FK__SCHEDULE__train___48CFD27E">
+          <End Role="Train" Type="Self.Train" Multiplicity="0..1" />
+          <End Role="SCHEDULE" Type="Self.SCHEDULE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Train">
+              <PropertyRef Name="train_id" />
+            </Principal>
+            <Dependent Role="SCHEDULE">
+              <PropertyRef Name="train_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RailwayInfoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Admins" EntityType="Self.Admin" />
+          <EntitySet Name="SCHEDULEs" EntityType="Self.SCHEDULE" />
+          <EntitySet Name="Trains" EntityType="Self.Train" />
+          <AssociationSet Name="FK__SCHEDULE__train___48CFD27E" Association="Self.FK__SCHEDULE__train___48CFD27E">
+            <End Role="Train" EntitySet="Trains" />
+            <End Role="SCHEDULE" EntitySet="SCHEDULEs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RailwayInfoModelStoreContainer" CdmEntityContainer="RailwayInfoEntities">
+          <EntitySetMapping Name="Admins">
+            <EntityTypeMapping TypeName="RailwayInfoModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SCHEDULEs">
+            <EntityTypeMapping TypeName="RailwayInfoModel.SCHEDULE">
+              <MappingFragment StoreEntitySet="SCHEDULE">
+                <ScalarProperty Name="start_location" ColumnName="start_location" />
+                <ScalarProperty Name="destination_location" ColumnName="destination_location" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="start_date_time" ColumnName="start_date_time" />
+                <ScalarProperty Name="destination_date_time" ColumnName="destination_date_time" />
+                <ScalarProperty Name="train_id" ColumnName="train_id" />
+                <ScalarProperty Name="Schedule_id" ColumnName="Schedule_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Trains">
+            <EntityTypeMapping TypeName="RailwayInfoModel.Train">
+              <MappingFragment StoreEntitySet="Train">
+                <ScalarProperty Name="train_id" ColumnName="train_id" />
+                <ScalarProperty Name="train_name" ColumnName="train_name" />
+                <ScalarProperty Name="seat_capacity" ColumnName="seat_capacity" />
+                <ScalarProperty Name="general_quota" ColumnName="general_quota" />
+                <ScalarProperty Name="ladies_quota" ColumnName="ladies_quota" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

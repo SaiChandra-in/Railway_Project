@@ -1,0 +1,66 @@
+﻿@model Project_Railways.Models.SCHEDULE
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SCHEDULE</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.start_location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start_location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.destination_location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.destination_location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.start_date_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start_date_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.destination_date_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.destination_date_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Train.train_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Train.train_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Schedule_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

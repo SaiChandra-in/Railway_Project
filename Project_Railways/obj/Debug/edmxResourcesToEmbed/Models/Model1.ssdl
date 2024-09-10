@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RailwayInfoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="SCHEDULE">
+    <Key>
+      <PropertyRef Name="Schedule_id" />
+    </Key>
+    <Property Name="start_location" Type="varchar" MaxLength="20" />
+    <Property Name="destination_location" Type="varchar" MaxLength="20" />
+    <Property Name="price" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="start_date_time" Type="datetime" />
+    <Property Name="destination_date_time" Type="datetime" />
+    <Property Name="train_id" Type="int" />
+    <Property Name="Schedule_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Train">
+    <Key>
+      <PropertyRef Name="train_id" />
+    </Key>
+    <Property Name="train_id" Type="int" Nullable="false" />
+    <Property Name="train_name" Type="varchar" MaxLength="30" />
+    <Property Name="seat_capacity" Type="int" />
+    <Property Name="general_quota" Type="int" />
+    <Property Name="ladies_quota" Type="int" />
+  </EntityType>
+  <Association Name="FK__SCHEDULE__train___48CFD27E">
+    <End Role="Train" Type="Self.Train" Multiplicity="0..1" />
+    <End Role="SCHEDULE" Type="Self.SCHEDULE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Train">
+        <PropertyRef Name="train_id" />
+      </Principal>
+      <Dependent Role="SCHEDULE">
+        <PropertyRef Name="train_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RailwayInfoModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SCHEDULE" EntityType="Self.SCHEDULE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Train" EntityType="Self.Train" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__SCHEDULE__train___48CFD27E" Association="Self.FK__SCHEDULE__train___48CFD27E">
+      <End Role="Train" EntitySet="Train" />
+      <End Role="SCHEDULE" EntitySet="SCHEDULE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

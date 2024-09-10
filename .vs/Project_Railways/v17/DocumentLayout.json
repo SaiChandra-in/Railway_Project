@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\controllers\\trainscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\controllers\\trainscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|c:\\users\\yachandr\\desktop\\project_railways\\project_railways\\project_railways\\models\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\models\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\schedules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\schedules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\schedules\\train_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\schedules\\train_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\schedules\\search_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\schedules\\search_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\schedules\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\schedules\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\trains\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\trains\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\schedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\schedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\views\\trains\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\views\\trains\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\project_railways\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6D731740-515D-414A-8EAC-563B3B6F3EF2}|Project_Railways\\Project_Railways.csproj|solutionrelative:project_railways\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T11:41:00.348Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Train.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Models\\Train.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\Models\\Train.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Models\\Train.cs",
+              "RelativeToolTip": "Project_Railways\\Models\\Train.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:37:55.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project_Railways\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:30:18.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SCHEDULEsController.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Controllers\\SCHEDULEsController.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\Controllers\\SCHEDULEsController.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Controllers\\SCHEDULEsController.cs",
+              "RelativeToolTip": "Project_Railways\\Controllers\\SCHEDULEsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:28:39.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrainsController.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Controllers\\TrainsController.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\Controllers\\TrainsController.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Controllers\\TrainsController.cs",
+              "RelativeToolTip": "Project_Railways\\Controllers\\TrainsController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswDEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:28:18.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SCHEDULE.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Models\\SCHEDULE.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\Models\\SCHEDULE.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Models\\SCHEDULE.cs",
+              "RelativeToolTip": "Project_Railways\\Models\\SCHEDULE.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:02:39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Web.config",
+              "RelativeDocumentMoniker": "Project_Railways\\Web.config",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Web.config",
+              "RelativeToolTip": "Project_Railways\\Web.config",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-06T06:10:48.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\SCHEDULEs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\Create.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\SCHEDULEs\\Create.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAApwCwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T04:40:34.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Global.asax.cs",
+              "RelativeToolTip": "Project_Railways\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:22:31.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Train_details.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\Train_details.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\SCHEDULEs\\Train_details.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\Train_details.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\SCHEDULEs\\Train_details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T12:47:33.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Project_Railways\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:39:51.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T05:29:37.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "search_details.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\search_details.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\SCHEDULEs\\search_details.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\search_details.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\SCHEDULEs\\search_details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T04:16:03.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "search.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\search.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\SCHEDULEs\\search.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\search.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\SCHEDULEs\\search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T13:26:19.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Admins\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Admins\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Admins\\Index.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\Admins\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T06:34:29.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "Project_Railways\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "Project_Railways\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T05:28:49.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\packages.config",
+              "RelativeDocumentMoniker": "Project_Railways\\packages.config",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\packages.config",
+              "RelativeToolTip": "Project_Railways\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-06T05:29:07.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Web.config",
+              "RelativeToolTip": "Project_Railways\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-06T03:25:59.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Trains\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Trains\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Trains\\Create.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\Trains\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T11:29:26.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\SCHEDULEs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\SCHEDULEs\\Index.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\SCHEDULEs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T12:19:17.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T13:16:26.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Trains\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_Railways\\Views\\Trains\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Views\\Trains\\Index.cshtml",
+              "RelativeToolTip": "Project_Railways\\Views\\Trains\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T12:08:08.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Project_Railways\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\yachandr\\Desktop\\Project_Railways\\Project_Railways\\Project_Railways\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Project_Railways\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-05T11:25:59.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

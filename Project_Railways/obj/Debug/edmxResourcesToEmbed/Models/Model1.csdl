@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RailwayInfoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SCHEDULE">
+    <Key>
+      <PropertyRef Name="Schedule_id" />
+    </Key>
+    <Property Name="start_location" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="destination_location" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Decimal" Precision="9" Scale="2" />
+    <Property Name="start_date_time" Type="DateTime" Precision="3" />
+    <Property Name="destination_date_time" Type="DateTime" Precision="3" />
+    <Property Name="train_id" Type="Int32" />
+    <Property Name="Schedule_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Train" Relationship="Self.FK__SCHEDULE__train___48CFD27E" FromRole="SCHEDULE" ToRole="Train" />
+  </EntityType>
+  <EntityType Name="Train">
+    <Key>
+      <PropertyRef Name="train_id" />
+    </Key>
+    <Property Name="train_id" Type="Int32" Nullable="false" />
+    <Property Name="train_name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="seat_capacity" Type="Int32" />
+    <Property Name="general_quota" Type="Int32" />
+    <Property Name="ladies_quota" Type="Int32" />
+    <NavigationProperty Name="SCHEDULEs" Relationship="Self.FK__SCHEDULE__train___48CFD27E" FromRole="Train" ToRole="SCHEDULE" />
+  </EntityType>
+  <Association Name="FK__SCHEDULE__train___48CFD27E">
+    <End Role="Train" Type="Self.Train" Multiplicity="0..1" />
+    <End Role="SCHEDULE" Type="Self.SCHEDULE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Train">
+        <PropertyRef Name="train_id" />
+      </Principal>
+      <Dependent Role="SCHEDULE">
+        <PropertyRef Name="train_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RailwayInfoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <EntitySet Name="SCHEDULEs" EntityType="Self.SCHEDULE" />
+    <EntitySet Name="Trains" EntityType="Self.Train" />
+    <AssociationSet Name="FK__SCHEDULE__train___48CFD27E" Association="Self.FK__SCHEDULE__train___48CFD27E">
+      <End Role="Train" EntitySet="Trains" />
+      <End Role="SCHEDULE" EntitySet="SCHEDULEs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
